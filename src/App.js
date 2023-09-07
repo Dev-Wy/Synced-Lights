@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className={wallClass}>
         <Switch toggle={this.toggle} />
-        <Switch />
+        <Switch toggle={this.toggle}/>
       </div>
     );
   }
